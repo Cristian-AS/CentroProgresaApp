@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034168296920",
+    "project_id": "centroprogresa-bda09",
+    "storage_bucket": "centroprogresa-bda09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034168296920:android:f1c852a4ec81010a847ead",
+        "android_client_info": {
+          "package_name": "com.uniminuto.appcentroprogresa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034168296920-dmoci98aih97lu4cmsl4j888jehi5hfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt9bNsTz1g51jrYyXkesCelnaoNf7Jkbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034168296920-dmoci98aih97lu4cmsl4j888jehi5hfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

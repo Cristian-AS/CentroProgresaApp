@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="30dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_practiya" />
+
+    <EditText
+        android:id="@+id/correoElectronico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle"
+        android:layout_marginTop="40dp"
+        android:hint="Correo Electronico"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:textStyle="bold"
+        android:textColorHint="@color/letterBox"
+        android:textColor="@color/letterBox">
+    </EditText>
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Contraseña"
+        android:background="@drawable/ic_rectangle"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:textStyle="bold"
+        android:textColorHint="@color/letterBox"
+        android:textColor="@color/letterBox">
+    </EditText>
+
+    <TextView
+        android:id="@+id/olvidaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtolvidastecontraseña"
+        android:textSize="16sp"
+        android:layout_below="@id/contrasena"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:gravity="center"
+        android:textColor="@color/letterBlueLight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/buttonIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/ic_botton_rectangule_yellow"
+            android:fontFamily="@font/inter_variablefont_slnt_wght"
+            android:textColor="@color/white"
+            android:text="@string/btnIncioSesion"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtregistrarte"
+        android:textSize="19sp"
+        android:layout_below="@id/buttonIngresar"
+        android:layout_marginTop="95dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        style="@style/Theme.AppCentroProgresaNight"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppCentroProgresaNight" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Text Colors Night-->
+        <item name="android:textColor">@android:color/white</item>
+
+        <!-- Boton Colors Night-->
+        <item name="colorPrimary">@color/yellowAplicattion</item>
+
+        <!-- Fondo de App Night-->
+        <item name="colorOnPrimary">#545350</item>
+
+        <!-- Status bar color Night -->
+        <item name="android:statusBarColor" >@color/letterBox</item>
+    </style>
+</resources>

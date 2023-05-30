@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppCentroProgresa</string>
+
+    <string name="campTextName">Nombre</string>
+    <string name="campTextEmail">Correo Electrónico</string>
+    <string name="campTextPass">Contraseña</string>
+    <string name="campTextCareer">Carrera</string>
+    <string name="btnRegister">Registrar</string>
+
+    <!-- Inicio de Sesion -->
+    <string name="btnIncioSesion">Entrar</string>
+    <string name="txtolvidastecontraseña">¿Olvidaste tu contraseña?</string>
+    <string name="txtregistrarte">¿QUIERES REGISTRARTE?</string>
+</resources>
