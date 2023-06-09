@@ -1,6 +1,8 @@
 package com.uniminuto.appcentroprogresa;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
 
 import android.os.Bundle;
 
@@ -11,4 +13,5 @@ public class Clasificacion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clasificacion);
     }
+
 }

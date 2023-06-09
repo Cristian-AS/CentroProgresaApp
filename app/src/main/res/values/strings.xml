@@ -26,4 +26,5 @@
     <string name="spinnerSelectClassification">Selecciona la clasificación</string>
     <string name="btnToCancel">Cancelar</string>
     <string name="btnToSend">Enviar</string>
+
 </resources>
