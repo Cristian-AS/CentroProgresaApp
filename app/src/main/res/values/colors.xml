@@ -10,6 +10,12 @@
     <color name="letterBlueLight">#788BFF</color>
     <color name="colorControlNormal">#FFA630</color>
     <color name="oscurePag">#2E2E2E</color>
+    <color name="greyDark">#505050</color>
 
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#232ED1</color>
+
+    <color name="green_dark">#062925</color>
+    <color name="green_normal">#044a42</color>
+    <color name="green_light">#3a9188</color>
+    <color name="green_light_2">#b8e1dd</color>
 </resources>
