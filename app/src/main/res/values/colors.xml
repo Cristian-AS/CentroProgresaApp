@@ -10,6 +10,7 @@
     <color name="letterBlueLight">#788BFF</color>
     <color name="colorControlNormal">#FFA630</color>
     <color name="oscurePag">#2E2E2E</color>
+    <color name="linearGray">#505050</color>
 
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#232ED1</color>
 </resources>

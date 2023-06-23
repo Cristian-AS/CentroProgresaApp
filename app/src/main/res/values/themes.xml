@@ -13,4 +13,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >@color/yellowAplicattion</item>
     </style>
+
+    <style name="TextViewtxtInfo">
+        <item name="android:textColor">@color/letterBox</item>
+    </style>
+
+    <!-- Estilo personalizado para el LinearLayout en modo diurno -->
+    <style name="LinearLayoutNightStyle">
+        <item name="android:background">@drawable/ic_background_blue</item>
+    </style>
 </resources>

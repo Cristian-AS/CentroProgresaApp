@@ -11,4 +11,27 @@
     <string name="btnIncioSesion">Entrar</string>
     <string name="txtolvidastecontraseña">¿Olvidaste tu contraseña?</string>
     <string name="txtregistrarte">¿QUIERES REGISTRARTE?</string>
+
+    <!-- Taller Virtual -->
+    <string name="txtTitulo">PROCESO</string>
+    <string name="txtInfo">Sigue todas las etapas para la Practica Profesional</string>
+    <string name="txtTitulo2">TALLER VIRTUAL INDUCCIÓN</string>
+    <string name="txtContenido">Ahora te debes dirigir a aulas virtuales para realizar el taller de inducción de la practica profesional.</string>
+    <string name="opciontxt">He realizado el taller virtual de inducción de la practica completamente.</string>
+    <string name="btnPrimero">ACCEDER AL TALLER</string>
+    <string name="btnSegundo">ATRÁS</string>
+    <string name="btnTercero">SIGUIENTE</string>
+
+    <!-- Preinscripcion -->
+    <string name="txtTituloPre">PREINSCRIPCIÓN</string>
+    <string name="txtopcion">Autorización politica de tratamientos de datos personales.</string>
+    <string name="btnCancelar">CANCELAR</string>
+    <string name="campTextNameFull">Nombre Completo</string>
+    <string name="campTextNDocumento">N° documento</string>
+    <string name="campTextCeluar">Celular</string>
+    <string name="campTextID">ID</string>
+    <string name="campTextPeriodoAcademico">Periodo académico</string>
+    <string name="campTextCreditos">Creditos aprobados</string>
+    <string name="btnPreinscribir">PREINSCRIBIR</string>
+
 </resources>

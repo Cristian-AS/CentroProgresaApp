@@ -12,5 +12,18 @@
 
         <!-- Status bar color Night -->
         <item name="android:statusBarColor" >@color/letterBox</item>
+
+
     </style>
+
+    <!-- Text Colors Especificamente "txtInfo" -->
+    <style name="TextViewtxtInfo">
+        <item name="android:textColor">@color/textBox</item>
+    </style>
+
+    <!-- Estilo personalizado para el LinearLayout en modo oscuro -->
+    <style name="LinearLayoutNightStyle">
+        <item name="android:background">@drawable/ic_background_gray</item>
+    </style>
+
 </resources>

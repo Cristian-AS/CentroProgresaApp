@@ -1,9 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
     tools:context=".TallerVirtual">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/txtTitulo"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        style="@style/Theme.AppCentroProgresaNight"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/txtInfo"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        style="@style/TextViewtxtInfo"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/txtTitulo2"
+        android:layout_marginTop="70dp"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:textStyle="bold"
+        style="@style/Theme.AppCentroProgresaNight"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LinearLayoutNightStyle"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/txtContenido"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/inter_variablefont_slnt_wght"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/accederTaller"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPrimero"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_botton_rectangule_yellow"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:textColor="@color/white"
+        android:layout_marginTop="29dp"/>
+
+    <CheckBox
+        android:id="@+id/realizadoCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opciontxt"
+        android:gravity="bottom"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_variablefont_slnt_wght"
+        android:textSize="14sp"
+        style="@style/Theme.AppCentroProgresaNight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/atrasBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSegundo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_botton_rectangule_yellow"
+            android:fontFamily="@font/inter_variablefont_slnt_wght"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/siguienteBtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTercero"
+            android:layout_marginStart="27dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_botton_rectangule_yellow"
+            android:fontFamily="@font/inter_variablefont_slnt_wght"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
