@@ -12,8 +12,6 @@
 
         <!-- Status bar color Night -->
         <item name="android:statusBarColor" >@color/letterBox</item>
-
-
     </style>
 
     <!-- Text Colors Especificamente "txtInfo" -->
@@ -26,4 +24,15 @@
         <item name="android:background">@drawable/ic_background_gray</item>
     </style>
 
+    <!--Botón de color para la barra de navegación - modo obscuro-->
+    <style name="BottomNavigation">
+        <item name="android:background">@color/greyDark</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+    </style>
+
+    <!--Botón de color para la el rectangulo de perfil - modo obscuro-->
+    <style name="backgroundPerfil">
+        <item name="android:background">@drawable/ic_botton_rectangule_grey</item>
+    </style>
 </resources>

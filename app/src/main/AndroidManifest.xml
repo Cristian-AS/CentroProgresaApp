@@ -19,30 +19,34 @@
         <activity
             android:name=".Preinscripcion"
             android:exported="true" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Clasificacion"
             android:exported="false" />
+
         <activity
             android:name=".TallerVirtual"
             android:exported="true" >
         </activity>
+
         <activity
             android:name=".Perfil"
-            android:exported="false" />
+            android:exported="false"/>
+
         <activity
             android:name=".Register"
             android:exported="true" />
+
         <activity
             android:name=".Login"
             android:exported="true">
         </activity>
-    </application>
 
+    </application>
 </manifest>

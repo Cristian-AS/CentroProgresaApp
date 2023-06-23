@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/processFragment"
+        android:title="Proceso"
+        android:icon="@drawable/ic_process"/>
+
+    <item
+        android:id="@+id/notificationsFragment"
+        android:title="Notificaciones"
+        android:icon="@drawable/ic_notifications"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Perfil"
+        android:icon="@drawable/ic_profile"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Ajustes"
+        android:icon="@drawable/ic_settings"/>
+</menu>

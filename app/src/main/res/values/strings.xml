@@ -34,4 +34,34 @@
     <string name="campTextCreditos">Creditos aprobados</string>
     <string name="btnPreinscribir">PREINSCRIBIR</string>
 
+    <!-- Clasificación -->
+    <string name="txtTitleClassification">CLASIFICACIÓN</string>
+    <string name="campTextCompleteName">Nombre Completo</string>
+    <string name="campTextEntityDocument">N°documento</string>
+    <string name="spinnerSeat">Sede</string>
+    <string name="campTextAddress">Dirección de residencia</string>
+    <string name="campTextCity">Ciudad</string>
+    <string name="campTextNumContact">N°contacto</string>
+    <string name="spinnerProgram">Programa</string>
+    <string name="spinnerDisability">¿Tiene alguna discapacidad?</string>
+    <string name="campTextIndicateDisability">Indique la discapacidad</string>
+    <string name="spinnerSelectClassification">Selecciona la clasificación</string>
+    <string name="btnToCancel">Cancelar</string>
+    <string name="btnToSend">Enviar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Perfil -->
+    <string name="txtNameUser">Cristian Alejandro Penagos Suárez</string>
+    <string name="txtTitleProgram">Carrera</string>
+    <string name="txtNameProgram">Ingeniería de Software</string>
+    <string name="txtTitleEmail">Email</string>
+    <string name="txtNameEmail">cristian.penagos-s@uniminuto.edu.co</string>
+    <string name="txtTitleID">ID</string>
+    <string name="txtID">000731058</string>
+    <string name="txtTitlePhone">Teléfono</string>
+    <string name="txtNumberPhone">310 342 3243</string>
+    <string name="txtTitleIdentification">Identificación</string>
+    <string name="txtNumberIndentification">11.222.22232</string>
+
 </resources>
