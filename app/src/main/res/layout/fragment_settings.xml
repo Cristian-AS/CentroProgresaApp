@@ -1,21 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SettingsFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <FrameLayout
+        android:id="@+id/frame_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/inter_variablefont_slnt_wght"
-        android:textColor="@color/letterBox"
-        android:textSize="40sp"
-        android:text="Fragmento Configuración"/><TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_alignParentTop="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
-</FrameLayout>
+    <!--    Barra de navegación-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="8dp"
+        app:menu="@menu/bottom_navigation"
+        app:labelVisibilityMode="labeled"
+        style="@style/BottomNavigation"/>
+
+    <!--    Es todo el linear layout de la interfaz-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitleNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/inter_variablefont_slnt_wght"
+            android:gravity="center"
+            android:hint="@string/txtTitleSetting"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!--Cerrar sesion sin cuadro-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:fontFamily="@font/inter_variablefont_slnt_wght"
+            android:hint="@string/txtSubTitleGoOut"
+            android:textColor="@color/letterBox"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/buttonToYes"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/ic_botton_rectangule_yellow"
+                android:fontFamily="@font/inter_variablefont_slnt_wght"
+                android:text="@string/btnToYes"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonToNo"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="35dp"
+                android:layout_toEndOf="@+id/buttonToYes"
+                android:background="@drawable/ic_botton_rectangule_yellow"
+                android:fontFamily="@font/inter_variablefont_slnt_wght"
+                android:text="@string/btnToNo"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!--Cerrar sesion con cuadro-->
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/ic_rectangle"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/inter_variablefont_slnt_wght"
+                android:hint="@string/txtSubTitleGoOut"
+                android:textColor="@color/letterBox"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="28dp">
+
+                <Button
+                    android:id="@+id/buttonToCancell"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/ic_botton_rectangule_yellow"
+                    android:fontFamily="@font/inter_variablefont_slnt_wght"
+                    android:text="@string/btnToYes"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonToSendd"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="35dp"
+                    android:layout_toEndOf="@+id/buttonToCancell"
+                    android:background="@drawable/ic_botton_rectangule_yellow"
+                    android:fontFamily="@font/inter_variablefont_slnt_wght"
+                    android:text="@string/btnToNo"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </RelativeLayout>-->
+
+    </LinearLayout>
+</RelativeLayout>

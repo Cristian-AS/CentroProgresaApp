@@ -65,6 +65,14 @@ public class Register extends AppCompatActivity {
             } else {
                 registerUser(nameUser, emailUser, passwordUser, careerUser);
             }
+
+            /*Bundle sendData = new Bundle();
+            sendData.putString("KeyDatos", name.getText().toString());
+
+            Intent intent = new Intent(Register.this, ProfileFragment.class);
+            intent.putExtras(sendData);
+            startActivity(intent);*/
+
         });
     }
 

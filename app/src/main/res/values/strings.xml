@@ -42,4 +42,13 @@
     <string name="txtTitleIdentification">Identificación</string>
     <string name="txtNumberIndentification">11.222.22232</string>
 
+    <!-- Notificación -->
+    <string name="txtTitleNotification">NOTIFICACIONES</string>
+    <string name="txtInfoNotification">Completa la información en procesos para continuar con el proceso de inscripción para la postulación de prácticas profesionales</string>
+
+    <!-- Notificación -->
+    <string name="txtTitleSetting">CONFIGURACIÓN</string>
+    <string name="txtSubTitleGoOut">¿Deseas salir de tu cuenta?</string>
+    <string name="btnToYes">Si</string>
+    <string name="btnToNo">No</string>
 </resources>

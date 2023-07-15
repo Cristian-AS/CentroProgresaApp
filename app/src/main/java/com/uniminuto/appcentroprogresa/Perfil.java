@@ -11,7 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class Perfil extends AppCompatActivity {
 
     final ProcessFragment processFragment = new ProcessFragment();
-     final NotificationsFragment notificationsFragment = new NotificationsFragment();
+    final NotificationsFragment notificationsFragment = new NotificationsFragment();
     final ProfileFragment profileFragment = new ProfileFragment();
     final SettingsFragment settingsFragment = new SettingsFragment();
 
